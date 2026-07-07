@@ -1,7 +1,3 @@
--- Fragmentacion mixta de clientes: corte vertical (datos de contacto)
--- de todos los clientes, sin importar la ciudad
--- Ejecutar en pg-babahoyo
-
 CREATE TABLE clientes_mixta_contacto (
     cliente_id INTEGER PRIMARY KEY,
     email VARCHAR(120) NOT NULL,

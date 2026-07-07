@@ -1,6 +1,4 @@
--- Fragmentacion mixta de clientes: corte horizontal por ciudad (Babahoyo o Ventanas)
--- + corte vertical (datos publicos)
--- Ejecutar en pg-ventanas
+
 
 CREATE TABLE clientes_mixta_bv_publicos (
     cliente_id INTEGER PRIMARY KEY,

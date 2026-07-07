@@ -1,5 +1,3 @@
--- Fragmentacion vertical de clientes: datos publicos
--- Ejecutar en pg-campus
 
 CREATE TABLE clientes_publicos (
     cliente_id INTEGER PRIMARY KEY,

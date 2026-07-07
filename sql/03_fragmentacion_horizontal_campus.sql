@@ -1,7 +1,4 @@
--- Fragmentacion horizontal de pedidos por sede
--- Ejecutar en pg-campus
 
--- Se respalda la copia centralizada completa (sirve de referencia para el paso 7)
 ALTER TABLE pedidos RENAME TO pedidos_centralizado_original;
 
 CREATE TABLE pedidos (

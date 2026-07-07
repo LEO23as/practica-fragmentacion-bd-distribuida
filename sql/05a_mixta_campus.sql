@@ -1,6 +1,3 @@
--- Fragmentacion mixta de clientes: corte horizontal por ciudad (Quevedo)
--- + corte vertical (datos publicos)
--- Ejecutar en pg-campus
 
 CREATE TABLE clientes_mixta_quevedo_publicos (
     cliente_id INTEGER PRIMARY KEY,

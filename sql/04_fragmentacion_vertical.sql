@@ -1,4 +1,4 @@
--- Se ejecuta en pg-campus (guarda los datos publicos):
+
 CREATE TABLE clientes_publicos (
                                    cliente_id INTEGER PRIMARY KEY,
                                    nombre VARCHAR(80) NOT NULL,
@@ -13,7 +13,7 @@ INSERT INTO clientes_publicos VALUES
                                   (5, 'Carla Zambrano', 'Ventanas'),
                                   (6, 'Pedro Suarez', 'Babahoyo');
 
--- Se ejecuta en pg-babahoyo (guarda los datos de contacto):
+
 CREATE TABLE clientes_contacto (
                                    cliente_id INTEGER PRIMARY KEY, -- misma PK que en el otro fragmento
                                    email VARCHAR(120) NOT NULL,

@@ -1,8 +1,6 @@
--- Fragmentacion vertical de clientes: datos de contacto
--- Ejecutar en pg-babahoyo
 
 CREATE TABLE clientes_contacto (
-    cliente_id INTEGER PRIMARY KEY, -- misma PK que en el otro fragmento
+    cliente_id INTEGER PRIMARY KEY,
     email VARCHAR(120) NOT NULL,
     telefono VARCHAR(20)
 );
